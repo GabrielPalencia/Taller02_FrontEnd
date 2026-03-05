@@ -4,7 +4,7 @@ export const Card = ({icon, alt, title, description, link}) => {
 
     return (
         <div className="card">
-            <img src={icon} alt={alt} className="card-icon" />
+            <h2 className="card-icon" aria-label={alt}>{icon}</h2>
             <h3 className="card-title" >
                 {title}
             </h3>
