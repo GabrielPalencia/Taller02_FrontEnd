@@ -1,0 +1,42 @@
+.courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    background-color: #F8F9FA;
+}
+
+.courses-container h2 { 
+    font-size: 1.5rem; 
+    padding: 50px 0px 0px 0px;
+    margin-bottom: 30px; 
+    color: #1A1A2E; 
+}
+
+.courses-container p {
+    font-size: 0.8rem;
+    color: #1A1A2E;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+.courses-container {
+    padding: 50px 20px;
+    margin: 0;
+}
+
+.courses-cards ul{
+    display: flex;
+    flex-wrap: wrap;    
+    flex: 1 1 300px; 
+    gap: 2rem;
+    padding: 0;
+    flex-wrap: wrap;
+    ;
+}
+
+.courses-cards li {
+    display: flex;
+}
+

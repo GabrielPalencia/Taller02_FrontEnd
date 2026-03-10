@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="header">
         <div className="container header-container">
-            <div className="logo">DevStudio</div>
+            <div className="logo">ReactAcademy</div>
             <nav className="nav-links">
                 <ul>
                     <li><NavLink title="Inicio" href="" /></li>
