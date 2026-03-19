@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+
+.header{
+    background: #1A1A2E; 
+    padding: 15px 0; 
+    color: #fff; 
+    position: sticky;
+    top: 0;
+}
+
+.container { 
+    padding: 0 20px; 
+}
+
+.header-container { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    font-weight: bold; 
+    color: #E94560;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
